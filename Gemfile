@@ -43,6 +43,3 @@ group :production do
   # gems specifically for Heroku go here
   gem "pg"
 end
-
-# Skip attempting to install the pg gem
-$ bundle install --without production
