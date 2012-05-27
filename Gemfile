@@ -38,6 +38,9 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
+gem 'execjs'
+
+gem 'therubyracer'
 
 group :production do
   # gems specifically for Heroku go here
